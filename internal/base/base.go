@@ -12,5 +12,14 @@ type Base struct {
 }
 
 func (what *Base) Execute() {
-	// Your code goes here.
+	err := what.rootCmd.Execute()
+	if err != nil {
+		what.rootCmd.Println(err)
+		os.Exit(1)
+	}
+}
+
+func (what *Base) Init(buildTimestamp string) *Base {
+	what.buildTimestamp = buildTimestamp
+	return what.initRoot().initAnalyze().initCreate().initExecute().initExplain().initList().initPrint().initQuit().initServer().initVersion()
 }
