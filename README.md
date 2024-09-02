@@ -3,6 +3,8 @@ base
 
 Based on "Tutorial: Get started with Go - The Go Programming Language" at https://go.dev/doc/tutorial/getting-started
 
+Based on "Tutorial: Create a Go module" at https://go.dev/doc/tutorial/create-module
+
 Based on "Go in Gitpod" at https://www.gitpod.io/docs/introduction/languages/go
 
 Based on "Threagility" at https://github.com/Threagile/threagile
