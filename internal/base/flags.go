@@ -2,4 +2,6 @@ package base
 
 const ()
 
-type Flags struct {}
+type Flags struct {
+	interactiveFlag bool
+}
