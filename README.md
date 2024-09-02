@@ -15,3 +15,19 @@ This repository contains the **base** of the 'products' that will be released as
 - ...
 
 Base is mostly written in the **Go** programming language and heavily inspired by [Threagile](https://github.com/Threagile/threagile).
+
+## Usage
+
+Run the code as follows from e.g. GitPod:
+
+```
+$ cd internal/base
+$ go mod tidy
+```
+
+then,
+
+```
+$ cd internal/base
+$ go run .
+```
