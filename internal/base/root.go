@@ -7,7 +7,11 @@ import (
 const ()
 
 func (what *Base) initRoot() *Base {
-	what.rootCmd = &cobra.Command{}
+	what.rootCmd = &cobra.Command{
+		Use:           "base",
+		Version:       BaseVersion,
+		Short:         "\n" + Logo,
+	}
 
 	return what
 }
