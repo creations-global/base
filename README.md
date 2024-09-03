@@ -31,3 +31,19 @@ then,
 $ cd internal/base
 $ go run .
 ```
+
+## Execution via Docker Container
+
+The easiest way to execute Base on the commandline is via its Docker container (**NOTE**: this requires that a Docker Image of ```creations-global/base``` exists on Docker Hub):
+
+```
+docker run --rm -it creations-global/base --help
+
+
+```
+
+To reduce the text to be typed, one can equally make use of the shell script (```base.sh```), as follows:
+
+```
+$ ./base.sh --help
+```
