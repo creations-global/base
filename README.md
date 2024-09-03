@@ -37,7 +37,7 @@ $ go run .
 The easiest way to execute Base on the commandline is via its Docker container:
 
 ```
-docker run --rm -it creations-global/base --help
+docker run --rm -it creations/base --help
 
 
 ```
