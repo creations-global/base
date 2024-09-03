@@ -34,7 +34,7 @@ $ go run .
 
 ## Execution via Docker Container
 
-The easiest way to execute Base on the commandline is via its Docker container (**NOTE**: this requires that a Docker Image of ```creations-global/base``` exists on Docker Hub):
+The easiest way to execute Base on the commandline is via its Docker container:
 
 ```
 docker run --rm -it creations-global/base --help
