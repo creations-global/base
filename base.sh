@@ -1,0 +1,1 @@
+docker run --rm -it creations-global/base "$@"
