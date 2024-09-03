@@ -27,9 +27,6 @@ RUN GOOS=linux go build -ldflags="-X main.buildTimestamp=$(date '+%Y%m%d%H%M%S')
 # RUN cp /app/demo/example/threagile.yaml /app/demo/example/threagile-example-model.yaml
 # RUN cp /app/demo/stub/threagile.yaml /app/demo/stub/threagile-stub-model.yaml
 
-
-
-
 ######
 ## Stage 3: Make final small image
 ######
