@@ -9,6 +9,8 @@ Based on "Go in Gitpod" at https://www.gitpod.io/docs/introduction/languages/go
 
 Based on "Threagility" at https://github.com/Threagile/threagile
 
+Based on "How To Deploy a Go Web Application with Docker" at https://semaphoreci.com/community/tutorials/how-to-deploy-a-go-web-application-with-docker
+
 This repository contains the **base** of the 'products' that will be released as part of Creations Global:
 
 - **Frame**: see https://github.com/creations-global/frame
